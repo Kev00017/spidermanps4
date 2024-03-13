@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Spider';
+    src: url(../../../fontes/Spider-Man.otf);
+}
+
+#footer-logo {
+    object-fit: contain;
+    height: 80px;
+    width: 120px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.span-footer {
+    color: #fff;
+    font-family: 'Spider', sans-serif;
+    font-size: 26px;
+}
+
+.copy {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.span-footer-dev {
+    color: #fff;
+    font-family: 'Spider', sans-serif;
+    font-size: 26px;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+}

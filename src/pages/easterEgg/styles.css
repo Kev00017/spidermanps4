@@ -1,0 +1,35 @@
+.easterEgg-content {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.easterEgg {
+    width: 90%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(../../assets/EasterEgg.jpg);
+    transition: .9s;
+}
+
+.easterEgg:hover {
+    scale: 1.05;
+}
+
+.easterEgg2 {
+    width: 90%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(../../assets/EasterEgg2.webp);
+    transition: .9s;
+}
+
+.easterEgg2:hover {
+    scale: 1.05;
+}

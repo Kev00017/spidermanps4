@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Spider';
+    src: url(../../../fontes/Spider-Man.otf);
+}
+
+.characters-imgCards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+
+.imgCards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.placesImgCards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.imgCard {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 34px;
+    font-family: 'Spider', sans-serif;
+}
+
+.imgCard:hover {
+    transform: scale(1.02);
+    color: red;
+}
+
+.img-1 {
+    background-image: url(../../assets/BestWallPaper.jpg);
+    background-position: 35%;
+}
+
+.img-2 {
+    background-image: url(../../assets/PeterParker.jpg);
+}
+
+.img-3 {
+    background-image: url(../../assets/MaryJane.jpg);
+}
+
+.img-4 {
+    background-image: url(../../assets/BestTiaMay.jpg);
+}
+
+.img-5 {
+    background-image: url(../../assets/Kingpin.jpg);
+}
+
+.img-6 {
+    background-image: url(../../assets/NormanOsborn.webp);
+}
+
+.img-7 {
+    background-image: url(../../assets/AnotherOtto.avif);
+}
+
+.img-8 {
+    background-image: url(../../assets/MisterNegative.jpg);
+}
+
+.img-9 {
+    background-image: url(../../assets/BestMilesMorales.jpg);
+}
+
+.img-10 {
+    background-image: url(../../assets/BlackCat.jpg);
+}
+
+.img-11 {
+    background-image: url(../../assets/PeterHouse.webp);
+}
+
+.img-12 {
+    background-image: url(../../assets/NewYorkCity.png);
+}
+
+.img-13 {
+    background-image: url(../../assets/FEAST.webp);
+}
+
+.img-14 {
+    background-image: url(../../assets/Avengers\ Tower.webp);
+}
+
+.img-15 {
+    background-image: url(../../assets/SanctumSanctorum.png);
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 300px;
+    height: 90px;
+    background-color: #e60a0a;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .9s;
+    font-size: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    font-family: 'Spider', sans-serif;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media(max-width: 768px){
+    .imgCards-content {
+        grid-template-columns: 1fr;
+    }
+
+    .img-12 {
+        background-position: 40%;
+    }
+
+    .img-14 {
+        background-position: 60%;
+    }
+}

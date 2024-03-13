@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Spider';
+    src: url(../../../fontes/Spider-Man.otf);
+}
+
+#banner {
+    background-image: url(../../assets/BestBanner.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Spider', sans-serif;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #e60a0a;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .9s;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    font-family: 'Spider', sans-serif;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media(max-width: 768px){
+    #banner {
+        height: 280px;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
